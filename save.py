@@ -5,6 +5,7 @@ import tarfile
 
 home = Path.home()
 files = [
+    home / ".config/picom/picom.conf", 
     home / ".config/alacritty/alacritty.yml",
     home / ".config/awesome/rc.lua",
     home / ".config/awesome/themes/",
